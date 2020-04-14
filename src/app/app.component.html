@@ -3,7 +3,7 @@
 
 <input #myInput class="form-control"/>
 
-<button class="btn btn-primary" (click)="onSend(myInput)">Send</button>
+<button (click)="onSend(myInput)" class="btn btn-primary">Send</button>
 
 <ul>
   <li *ngFor="let m of messages$ | async">
