@@ -1,6 +1,9 @@
+<!--<app-login></app-login>-->
 <h1>Angular Firebase Demo</h1>
+
 <input #myInput class="form-control"/>
-<button class="btn btn-primary" (click)="onButtonClicked(myInput)">Send</button>
+
+<button class="btn btn-primary" (click)="onSend(myInput)">Send</button>
 
 <ul>
   <li *ngFor="let m of messages$ | async">

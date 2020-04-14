@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
     this.messages$ = this.db.collection<Message>('messages', queryFn).valueChanges();
   }
 
-  onButtonClicked(inputElement: HTMLInputElement) {
+  onSend(inputElement: HTMLInputElement) {
     const text = inputElement.value;
     const date = new Date();
 
