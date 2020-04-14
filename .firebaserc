@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-firebase-demo-aec89": {
+      "hosting": {
+        "angular-firebase-demo": [
+          "angular-firebase-demo-aec89"
+        ]
+      }
+    }
+  }
+}
