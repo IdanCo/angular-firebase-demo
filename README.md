@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
+## Checkout the Demo
+
+visit https://angular-firebase-demo-aec89.web.app for a live demo
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -20,4 +23,4 @@ Edit `.firebaserc`, `firebase.json` and both files in `/src/environments`
 
 ## Presentation
 
-checkout this [file](Angular and Firebase.pdf) for the full presentation.
+checkout this [file](angular_and_firebase.pdf) for the full presentation.
