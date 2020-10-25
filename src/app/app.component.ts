@@ -15,8 +15,7 @@ interface Message {
 export class AppComponent implements OnInit {
   messages$: Observable<Message[]>;
 
-  constructor(private db: AngularFirestore) {
-  }
+  constructor(private db: AngularFirestore) { }
 
   ngOnInit(): void {
     this.messages$ = this.db
