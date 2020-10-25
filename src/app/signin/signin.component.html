@@ -1,0 +1,10 @@
+<div *ngIf="authService.user | async as user; else showLogin">
+  <h1>Hello {{ user.displayName }}!</h1>
+  <button (click)="signOut()">Logout</button>
+</div>
+
+<ng-template #showLogin>
+  <h1>Hello Anonymous!</h1>
+  <button class="btn btn-outline-dark" (click)="signIn()">Sign In</button>
+</ng-template>
+
