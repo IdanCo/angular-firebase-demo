@@ -2,9 +2,9 @@
 <input #message class="form-control"/>
 <button class="btn btn-primary" (click)="onSend(message)">Send</button>
 
-<!--<ul>-->
-<!--  <li *ngFor="let doc of messages$ | async">-->
-<!--    {{ doc.message }}-->
-<!--  </li>-->
-<!--</ul>-->
+<ul>
+  <li *ngFor="let message of messages$ | async">
+    {{ message.text }}
+  </li>
+</ul>
 
